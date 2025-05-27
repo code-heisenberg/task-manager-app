@@ -76,3 +76,38 @@ h1 {
 .task-list li button:hover {
   background-color: #c82333;
 }
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.search-bar {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  width: 60%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

@@ -1,3 +1,8 @@
+# 📝 Task Manager Application
+
+A simple Task Manager built using **React** and **Vite**, perfect for learning and teaching core React concepts.
+
+---
 
 ## ✅ React Features Covered
 
@@ -14,9 +19,15 @@ This project demonstrates the following **React** features:
 - **Basic Form Handling**
 - **Basic Styling** (external CSS)
 
+- **Controlled Components**
+- **Derived State** (`Computed Filtering & Search`)
+- **Side Effects** (`useEffect`)
+- **Local Storage Persistence**
+- **Custom Hooks** (`useLocalStorage`)
 
+---
 
-## Wireframe
+## 🧩 Wireframe (Text-Based)
 
 +-----------------------------------------------------+
 | Task Manager |
@@ -34,6 +45,31 @@ This project demonstrates the following **React** features:
 +-----------------------------------------------------+
 
 
-App.jsx
-TaskForm.jsx
-TaskList.jsx
+
+---
+
+## ⚙️ Vite Project Setup Commands
+
+Use the following commands to set up the project using **Vite**:
+
+```bash
+npm create vite@latest task-manager --template react
+cd task-manager
+npm install
+npm run dev
+```
+
+
+
+# File Strcture
+
+task-manager/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TaskForm.jsx
+│   │   └── TaskList.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+└── index.html
